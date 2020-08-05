@@ -3,7 +3,8 @@ import time
 import threading
 
 class MOTOR():
-    CM_PER_SEC  = 35.0
+    CM_PER_SEC  = 25.0
+    SEC_PER_TURN  = 2.087
 
     def __init__(self, left_pin1, left_pin2, right_pin1, right_pin2):
         self.MOTOR_LEFT_PIN1  = left_pin1
