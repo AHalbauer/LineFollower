@@ -2,7 +2,7 @@ import RPi.GPIO as GPIO
 import time
 import threading
 
-class MOTOR():
+class Motor():
     CM_PER_SEC  = 25.0
     SEC_PER_TURN  = 2.087
 
