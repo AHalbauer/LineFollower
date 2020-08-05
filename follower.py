@@ -1,9 +1,9 @@
 import RPi.GPIO as GPIO
 import time
-from motor import MOTOR
+from motor import Motor
  
  
-class FOLLOWER():
+class Robot():
     def __init__(self, motor_left_pin1=17, motor_left_pin2=27, motor_right_pin1=23, motor_right_pin2=24,
                  line_follow_pin_left=19, line_follow_pin_right=6 ):
         GPIO.setmode(GPIO.BCM)
